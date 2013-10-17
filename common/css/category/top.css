@@ -1,0 +1,116 @@
+@charset "shift_jis";
+
+/* -------------------------------------------------------------
+	Topページ用CSS
+-----------------------------------------------------------------*/
+
+
+
+#wrap {
+	background:url(../../../img/bg.jpg)  no-repeat top center;
+
+
+	}
+
+hr{
+height:1px;
+color:#CCCCCC
+}
+
+
+#top_gnavi{
+	margin:0px 0 10px 0px
+	}
+
+
+/* main contents トップ用　上書き
+---------------------------------------------------------------------------------------------- */
+
+#main{
+	width:870px;
+	margin:0px auto;
+	}
+
+
+		/*　親boxの高さを算出：子boxにfloatを使用 */
+		#main{
+			/*IE6,7用*/
+			/*width :880px;		  */
+		
+
+		
+		
+			/*mac IE5用*/
+			/*\*/*/
+			overflow:hidden;
+			/**/
+			}
+		
+		
+		/* モダンブラウザ（IE6,7以外） */
+		#main::after{
+			height:0px;
+			visibility:hidden;
+			content:".";
+			display:block;
+			clear:both;
+			}
+		
+
+
+#main_primary{
+	width:685px;
+	float:left;
+	}
+
+	#main_primary::after{
+				height:0px;
+				visibility:hidden;
+				content:".";
+				display:block;
+				clear:both;
+				}
+
+
+/*
+#main_secondary{
+	width:220px;
+	float:right;
+	margin-top:53px
+	}
+	
+
+*/
+
+
+	
+/*ニュース
+---------------------------------------------*/
+#news{
+margin:35px 15px;
+padding:0px;
+padding-bottom:5px;
+}
+
+/*
+#news_waku{height:450px;
+overflow-y:scroll;
+width:800px;
+}
+*/
+
+
+
+iframe{
+	margin:10px;
+	padding:0px;
+	}
+
+/*連絡先
+---------------------------------------------*/
+
+#copy{ display:none}
+
+
+
+	

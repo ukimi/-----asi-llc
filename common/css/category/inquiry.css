@@ -1,0 +1,86 @@
+@charset "shift_jis";
+
+/* -------------------------------------------------------------
+	お問い合わせ用CSS
+-----------------------------------------------------------------*/
+
+
+/*
+-------------------------------------------------------*/
+
+form{
+	padding:0px;
+	margin:0px
+	}
+	
+	
+
+
+/*
+--------------------------------------------------------*/
+
+
+table.inquiry{
+	width:650px;
+	margin:15px 0 1px 0px
+	}
+
+
+/*　表の装飾 実線 */
+table.inquiry {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  background: white;
+
+  }
+  
+table.inquiry th,
+table.inquiry td {
+	padding:0px;
+	border: 1px solid #fff;
+	}
+	
+	
+table.inquiry th {
+	background:url(../../img/inquiry/th_bg.gif);
+	padding:0px 5px
+	}
+		
+table.inquiry th.nini {
+	background:url(../../img/inquiry/th_bg_nini.gif);
+	}
+	
+
+table.inquiry td {
+		padding:5px;
+	background:#E4E4E4
+	}
+	
+	
+/* ボタン
+-------------------------------------------------------------------------*/
+#btn{
+	margin-top:15px;
+	background:#FFFF99;
+	text-align:center;
+	padding:10px 10px;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC
+	}
+
+
+
+#btn #submit{
+	padding:5px
+	}
+
+
+
+
+
+
+
+
+

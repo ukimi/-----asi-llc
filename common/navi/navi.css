@@ -1,0 +1,154 @@
+ 
+
+ /*  ローカルナビゲーション
+ 
+ 
+ 
+==============================================================================================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*  ローカルナビゲーション　カレント表記
+------------------------------------------------------------------------------------------------  */
+
+
+
+body#lnavi_1  #lnavi li a#lnavi_1 {color:#FFFFFF;background-position: 0 -60px;font-weight:bold}
+body#lnavi_2  #lnavi li a#lnavi_2 {color:#FFFFFF;background-position: 0 -60px;font-weight:bold}
+body#lnavi_3  #lnavi li a#lnavi_3 {color:#FFFFFF;background-position: 0 -60px;font-weight:bold}
+body#lnavi_4  #lnavi li a#lnavi_4 {color:#FFFFFF;background-position: 0 -60px;font-weight:bold}
+body#lnavi_5  #lnavi li a#lnavi_5 {color:#FFFFFF;background-position: 0 -60px;font-weight:bold}
+body#lnavi_6  #lnavi li a#lnavi_6 {color:#FFFFFF;background-position: 0 -60px;font-weight:bold}
+body#lnavi_7  #lnavi li a#lnavi_7 {color:#FFFFFF;background-position: 0 -60px;font-weight:bold}
+body#lnavi_8  #lnavi li a#lnavi_8 {color:#FFFFFF;background-position: 0 -60px;font-weight:bold}
+
+
+ 
+ 
+ /* バナー
+  ---------------------------------------------------------------------------------------*/
+#bnr{
+	margin:0px 0px 0px 5px
+	}
+
+		
+		
+		#bnr img{
+			margin-bottom:5px;
+			display:block
+			}
+			 
+
+
+
+/*　1階層
+-----------------------------*/
+#lnavi {
+        width: 190px;
+		margin-bottom:10px
+        }
+
+#lnavi ul{
+	margin:0px;
+	padding:0px
+}
+
+
+
+#lnavi li{
+        list-style: none;
+        margin: 0;
+		/*background:url(../img/body/lin_dot_720.gif) no-repeat 0px bottom;*/
+		/*padding-top:3px;
+		padding-bottom:4px;*/
+
+        }
+
+		
+	#lnavi li a {
+				background: url(img/lnavi.gif) 0px 0px;
+				color:#666666;
+				padding: 6px 5px 6px 25px;
+		/*border-bottom:1px dotted #CCCCCC;*/
+				
+				display: block;
+				_height: 100%;
+				voice-family: "\"}\"";
+				voice-family: inherit;
+				text-decoration: none;
+			}
+		/*　"アンダーバー_height"winIEのみ　*/
+
+	
+	#lnavi li a:link, #lnavi li a:visited {
+			padding-left:18px;
+			}
+		
+	
+	#lnavi li a:hover, #lnavi li a:active {
+			color: #FFFFFF;
+			background-position:  0 -60px;
+			}
+		
+		
+	/* 2階層
+	-------------------------*/
+	#lnavi li li a {
+			font-weight:normal;
+			color: #666;
+			display: block;
+			background: url(lnavi_2nd.jpg);
+			}
+	
+	
+	#lnavi li li a:link, #lnavi li li a:visited {
+	
+	
+				padding: 8px 5px 5px 30px;
+			}
+	
+	#lnavi li li a:hover, #lnavi li li a:active {
+			color: #FF0000;
+			background-position:  0 -60px;
+	
+			}
+			
+
+	/* 3階層
+	-------------------------*/
+	#lnavi li li li a {
+			color: #666;
+			display: block;
+			background: url(lnavi_3th.jpg);
+			}
+	
+	
+	#lnavi li li li a:link, #lnavi li li li a:visited {
+	
+	
+				padding: 8px 5px 5px 45px;
+			}
+	
+	#lnavi li li li a:hover, #lnavi li li li a:active {
+			color: #FF0000;
+			background-position:  0 -60px;
+	
+			}		
+
+

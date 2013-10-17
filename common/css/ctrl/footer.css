@@ -1,0 +1,233 @@
+@charset "shift_jis";
+
+
+
+
+#PNAVI{
+
+	clear:both;
+	width:850px;
+	margin:0px auto;
+		}
+		
+		/*　親boxの高さを算出：子boxにfloatを使用 */
+		#PNAVI{
+			/*IE6,7用*/
+			/*width :880px;		  */
+		
+
+			/*mac IE5用*/
+			/*\*/*/
+			overflow:hidden;
+			/**/
+			}
+		
+		
+		/* モダンブラウザ（IE6,7以外） */
+		#PNAVI:after{
+			height:0px;
+			visibility:hidden;
+			content:"";
+			display:block;
+			clear:both;
+			}
+		
+
+
+
+	
+	#PNAVI ul{
+		list-style:none;
+		margin:0px;
+		padding:0px;
+		}
+	
+	
+	#PNAVI li{
+		display:inline;
+		margin:0px;
+		padding:0px;
+		}
+		
+	#PNAVI p{
+		margin:0px;
+		padding:0px;
+		}
+	
+		#PNAVI li img{
+			margin-left:0px
+			}
+			
+
+
+/*
+------------------------------------------------*/
+
+#fnavi{
+	text-align:right
+}
+
+
+
+
+/* fontカラー
+-------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+	
+
+#fmenu	a:link {
+		color: #000;
+		}
+	
+#fmenu	a:visited {
+		color: #000;
+		}
+	
+#fmenu	a:active  {
+		color: #000;
+		}
+		
+#fmenu	a:hover  {
+		color:#ccc;
+		text-decoration:none;
+		}
+
+
+
+
+/* フッターメニュー
+---------------------------------------------------------------------------*/
+
+
+#fmenu{
+	font-size:75%;
+	float:left;
+
+	}
+
+
+	#fmenu a{
+		margin-right:10px
+	}
+
+
+	
+/* 右
+---------------------------------------------------------------------------*/
+
+#copy {
+	float:right;
+	text-align:right;
+
+	}
+	
+
+	#copy a{
+		font-size:80%;
+	}
+
+		/*　内部リンク　→ 右向き*/
+			.footer_arrow_body{
+					margin:5px 0 0 0;
+					padding:0 0 0px 8px;
+					background:url(../../img/footer/i_arrow_body.jpg) no-repeat 0px center;
+						}
+
+
+	#copy img{
+	margin-top:15px
+	}
+
+
+
+
+
+
+
+
+
+
+
+/*  フッターバー
+-----------------------------------------*/
+.footer_bar{
+	clear:both;
+	text-align:center;
+	margin-bottom:6px;
+	}
+
+
+
+
+
+
+
+/*  フッター情報
+------------------------------------------*/
+#footer_info{
+	clear:both;
+	margin:0px auto;
+	width:860px;
+	font-size:80%;
+	text-align:right;
+	color:#666666
+	}
+
+
+		/* モダンブラウザ（IE6,7以外） */
+		#footer_info:after{
+			height:0px;
+			visibility:hidden;
+			content:".";
+			display:block;
+			clear:both;
+			}
+
+
+	#footer_info p{
+		font-size:80%;
+		margin:0px;
+		padding:10px 10px 10px 10px;
+		}
+
+
+
+	#footer_info p span{
+		font-size:80%;
+		}
+
+	#footer_info p .footer_tel{
+		font-size:100%;
+		font-weight:bold
+		}
+
+
+
+
+
+/* 段組
+-------------------------------------------*/
+#footer_info .fbox_l {
+
+	width:600px;
+	}
+
+#footer_info .fbox_r {
+
+	width:600px;
+	}
+
+
+		#footer_info .tel{
+		font-size:16px;
+		color:#333333
+		}
+
+
+		
+

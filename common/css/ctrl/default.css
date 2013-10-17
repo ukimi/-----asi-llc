@@ -1,0 +1,685 @@
+@charset "shift_jis";
+
+/*-----------------------------------
+
+　　　　　共通設定用
+
+------------------------------------*/
+
+
+
+
+
+
+body{	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	margin:0px;
+	padding:0px;
+	}
+
+
+
+
+
+
+/*　
+---------------------------------------------------------------------------------------*/
+img{
+	border:0px none;
+	margin:0px;
+	padding:0px;
+	}
+
+
+		
+
+/*　　img のリンク　マウスオーバー
+---------------------------------------------------------------------------------------*/
+
+a.mouseOver:hover img{
+  filter: alpha(opacity=75);
+  -moz-opacity:0.75;
+  opacity:0.75;
+}
+
+
+
+
+/*ページャー
+----------------------------------------------------------------------------------------*/
+
+
+ul.pager {
+	margin:0px;
+	padding:0px
+		}
+		
+		
+		ul.pager li {
+			display:inline;
+			  margin-right: 10px;
+			  padding-right: 10px;
+			  border-right: 1px #999999 solid;
+				}
+		ul.pager li.next {
+			  border-right: none;
+				}
+		ul.pager li.noline {
+			  border-right: none;
+				}				
+				
+		ul.pager li a:link,
+		ul.pager li a:visited {
+			  color: #3366FF;
+			  text-decoration: none;
+				}
+		ul.pager li a:hover,
+		ul.pager li a:active {
+			  color: #FF6633;
+			  text-decoration: none;
+				}
+		ul.pager li em {
+			  font-weight: bold;
+				}
+
+
+
+/* 関連リンクなど
+-----------------------------------------------------------------------------------*/
+
+.link_waku{
+	clear:both;
+	padding:10px 15px;
+	border:2px solid #E4E4E4;
+	background:#FFFFD2;
+	margin:10px
+	}
+
+
+
+
+/*　default link color
+---------------------------------------------------------------------------------------*/
+
+a:link {
+
+	}
+
+a:visited {
+
+	}
+
+a:active {
+
+	}
+	
+a:hover {
+
+	}
+	
+	
+
+
+
+
+/*------------------------------  display:none  ------------------------------*/
+.hide{
+	
+	/*display:none*/
+	
+	display:block;
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+	}
+
+
+
+/*------------------------------  プリント用  ------------------------------*/
+.print{
+	/*display:none*/
+	
+	display:block;
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+	}
+
+
+/*	 スクリーンリーダー用 画面上では非表示 
+     hack macie5x.css
+-----------------------------------------------	*/
+.reader{
+	display:block;
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+}
+
+
+
+
+
+/**/
+.clear{
+	clear:both
+	}
+
+
+
+
+
+/* floatの設定
+---------------------------------------------------------------------------------------------- */
+
+.f_left{
+	float:left;
+	}
+
+.f_right{
+	float:right;
+	}
+
+
+
+
+
+
+
+
+/*  アイコンの表示
+---------------------------------------------------------------------------------------------- */
+
+/*　内部リンク　→ 右向き*/
+.arrow_body{
+	margin:10px 0 0 0;
+	padding:0 0 0px 15px;
+	background:url(../../img/body/i_arrow.gif) no-repeat 0px center;
+		}
+
+/*　内部リンク　←　左向き*/
+.arrow_back{
+	margin:10px 0 0 0;
+	padding:0 0 0 12px;
+	background:url(../../img/body/i_arrow_back.gif) no-repeat 0px center;
+		}
+
+
+
+/*　外部リンク*/
+.arrow_blank{
+	margin:3px 0 3px 0px;
+	padding:3px 0 3px 21px;
+	background:url(../../img/body/ico_blank.gif) no-repeat 0px center;
+		}
+
+
+
+/*　ダウンロード*/
+.arrow_dl{
+	margin:3px 0 0px 0px;
+	padding:7px 0 5px 20px;
+	background:url(../../img/body/i_download.gif) no-repeat 0px 3px;
+		}
+
+
+/*　ダウンロード*/
+.arrow_pdf{
+	margin:3px 0 0px 0px;
+	padding:7px 0 5px 20px;
+	background:url(../../img/body/ico_pdf.gif) no-repeat 0px 3px;
+		}
+		
+		
+
+/*　Media Player*/
+.arrow_player{
+	margin:3px 0 0px 0px;
+	padding:5px 0 5px 20px;
+	background:url(../../img/body/ic_player.gif) no-repeat 0px 3px;
+		}
+
+
+
+
+
+
+
+/*　詳細 */
+.arrow_detail{
+	text-align:left;
+	margin:3px 0 0px 0px;
+	padding:5px 0 5px 18px;
+	background:url(../../img/body/i_roope.gif) no-repeat 0px center;
+		}
+
+
+
+/*　写真のフレーム
+----------------------------------------------------------------------------------------------　*/
+.pic_frame{
+	padding:5px;
+	border:1px solid #DDDDDD;
+	background:#FFFFFF;
+	margin:10px;
+	}
+
+
+
+
+
+/*ラインの設定
+---------------------------------------------------------------------------------------------- */
+
+
+	
+.line_top{
+	margin:2px 0 0 0 ;
+	padding:2px 0 0 0 ;
+	background:url(../../img/body/lin_dot_720.gif) 0px 0px no-repeat;
+	}
+	
+	
+
+
+.line_bottom{
+	margin:2px 0 25px 0 ;
+	padding:2px 0 15px 0 ;
+	border-bottom:1px solid #E6E6E6
+	}
+
+
+
+
+/*
+-----------------------------------------------------------------------------------------------------*/
+
+
+/*青色のリスト*/
+ul.list01{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	}
+	
+	ul.list01 li{
+		padding-left:18px;
+		margin-top:5px;
+		background:url(../../img/body/list_mark_01.jpg) no-repeat 0 2px;
+		margin-left:10px
+		}
+			
+
+
+
+
+/*グレーのリスト*/
+ul.list02{
+	list-style:none;
+	padding:0px;
+	margin:0px
+	}
+
+	ul.list02 li{
+		padding-left:18px;
+		margin-top:3px;
+		background:url(../../img/body/list_mark_02.jpg) no-repeat 0 2px;
+		margin-left:10px
+		}
+
+
+
+
+/*リストマークなし*/
+ul.no_list{
+	list-style:none;
+	padding:0px;
+	margin:0px
+	}
+	
+	ul.no_list01 li{
+		padding-left:18px;
+		margin-top:5px;
+		margin-left:10px
+		}
+			
+
+
+
+
+
+
+/* table	
+---------------------------------------------------------------------------------------------- */
+/* 線なし */
+table.table00	{
+	border-collapse:0px;
+	border-spacing:0px;
+	border:0px;
+	}
+
+	table.table00 td	{
+		vertical-align:top;
+		}
+
+
+	
+/*　表の装飾 下線の破線のみ */
+table.table02 {
+  border-collapse:0;
+  border-spacing: 0;
+  empty-cells: show;
+
+  line-height:160%;
+	}
+
+table.table02 th{
+	padding:14px 5px ;
+	text-align:left;
+	white-space:nowrap;
+	background:url(../../img/body/lin_dot_720.gif) bottom no-repeat;
+	vertical-align:top;
+	}
+
+table.table02 td{
+	padding:6px;
+	background:url(../../img/body/lin_dot_720.gif) bottom no-repeat;
+	vertical-align:top;
+	}
+
+table.table02 td.no_line{
+	background:url( ) bottom no-repeat;
+	}
+
+
+
+/*
+	table.table02 table th{
+		padding:0px 5px 5px 5px;
+		text-align:left;
+		white-space:nowrap;
+		background:url() bottom no-repeat;
+		vertical-align:top;
+		}
+	
+	table.table02 table td{
+		padding:0px 5px 5px 5px;
+		background:url() bottom no-repeat;
+		vertical-align:top;
+		}
+*/
+
+
+
+
+
+
+
+/*　表の装飾 実線 */
+table.table01 {
+  border: 1px solid #666;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  background: white;
+
+  }
+  
+table.table01 th,
+table.table01 td {
+	padding:5px;
+	border: 1px solid #999;
+	}
+	
+table.table01 th {
+	background:#E8F0F0;
+	}
+	
+table.table01 td.midashi{
+	background:#F2F2F2;
+	}
+	
+
+
+
+
+/*　表の装飾 下線の破線のみ */
+table.table03 {
+  border-collapse:0;
+  border-spacing: 0;
+  empty-cells: show;
+
+  line-height:160%;
+  width:100%
+	}
+
+table.table03 th{
+	padding:14px 5px ;
+	text-align:left;
+	white-space:nowrap;
+	background:url(../../img/body/lin_dot_720.gif) bottom no-repeat;
+	vertical-align:top;
+	}
+
+table.table03 td{
+	padding:10px;
+	background:url(../../img/body/lin_dot_720.gif) bottom no-repeat;
+	vertical-align:top;
+	}
+
+table.table03 td.no_line{
+	background:url( ) bottom no-repeat;
+	}
+	
+
+
+
+
+/*　表の装飾 下線の破線のみ */
+table.table04 {
+  border-collapse:0;
+  border-spacing: 0;
+  empty-cells: show;
+	}
+
+table.table04 th{
+	padding:5px;
+	text-align:left;
+	white-space:nowrap;
+ border-bottom:1px solid #333333;
+	vertical-align:top;
+	}
+
+table.table04 td{
+	padding:5px;
+ border-bottom:1px solid #333333;
+	vertical-align:top;
+	}
+
+
+
+/*　表の装飾 下線の破線のみ */
+table.table05 {
+	width:100%;
+  border-collapse:0;
+  border-spacing: 0;
+  empty-cells: show;
+	}
+
+table.table05 th{
+width:70px;
+	padding:5px;
+	text-align:left;
+	white-space:nowrap;
+ border-bottom:2px solid #536933;
+	vertical-align:top;
+	}
+
+table.table05 td{
+	padding:5px;
+ border-bottom:2px solid #536933;
+	vertical-align:top;
+	}
+
+
+
+/*　表の装飾 実線 */
+table.table_com {
+  border: 1px solid #999;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  background: white;
+
+  }
+  
+table.table_com th,
+table.table_com td {
+	padding:5px 10px;
+	border: 1px solid #999;
+	}
+	
+	.table_com th{
+		width:20%;
+		background:#F2F0D9;
+		font-size:110%;
+		}
+	
+	.table_com td{
+		background:#FFF;
+		font-size:110%;
+		line-height:160%
+		}
+
+
+
+
+
+/* 文章関連
+----------------------------------------------------------------------------------------------*/
+
+/*ぶら下がり*/
+.note{
+	text-indent:-1em;
+	padding-left:1em
+	}
+
+.note2{
+	text-indent:-2em;
+	padding-left:2em
+	}
+
+		p.note2{
+			margin:5px 2em 5px 3em ;
+			padding:0px
+			}
+		
+		
+.note3{
+	text-indent:-3em;
+	padding-left:3em
+	}
+
+.note2{
+			margin:5px;
+			padding:0px
+			}
+		
+
+
+
+
+/*  dl dt
+----------------------------------------------------------------------------------------------*/	
+dl.list {
+	margin:0px;
+	padding:0px;
+
+	margin: 0.5em 0.5em;
+
+}
+
+	dl.list dt {
+		margin:0px;
+		float:left;   
+		width:100px;   
+		padding:2px 0 5px 10px;   
+		clear:both;   
+		font-weight:bold; 
+	
+		}
+		
+	dl.list dd {
+		padding:2px 5px 2px 10px;   
+		margin:5px 0 5px 100px;
+		border-left:1px solid #999;   
+		}
+		
+		
+
+
+
+dl.list02 {
+	margin:0px;
+	padding:0px;
+
+	margin: 0.5em 0.5em;
+
+}
+
+	dl.list02 dt {
+		margin:0px;
+		float:left;   
+		width:150px;   
+		padding:2px 0 5px 10px;   
+		clear:both;   
+		font-weight:bold; 
+
+		}
+		
+	dl.list02 dd {
+		padding:2px 5px 2px 10px;   
+		margin:5px 0 5px 150px;
+		border-left:1px solid #999; 
+		}
+		
+	
+	
+	
+
+
+/*　サイトマップ
+----------------------------------------------*/
+
+
+/* サイトマップ
+ -----------------------------------------------------------------*/
+
+
+#sitemap{
+margin:15px 30px 15px 30px
+}
+
+
+ul.sitemap { margin: 0; padding: 0;}
+ul.sitemap ul { margin: 0 0 0 10px; padding: 0; }
+ul.sitemap li {
+	list-style-type: none;
+	margin: 0 0 0 2px;
+	padding: 10px 0 0 15px;
+	}
+	
+	
+ul.sitemap li.joint  { 
+	padding:4px 0 2px 22px;
+	margin:0 0 0 2px;
+	background:url(../../img/sitemap/map_joint.gif) repeat-y  0px -2px;
+	 }
+
+
+ul.sitemap li.bottom { 
+	padding:4px 0 2px 22px;
+	margin:0 0 0 2px;
+	background: url(../../img/sitemap/map_bottom.gif) no-repeat 0px -22px;
+	}
+	
+

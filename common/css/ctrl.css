@@ -1,0 +1,55 @@
+@charset "shift_jis";
+
+
+
+
+
+/* サイト内共通　デフォルトのwapper */
+@import url(container.css);
+
+/* サイト内共通　デフォルトの設定*/
+@import url(ctrl/default.css);
+
+/*ヘッダー用*/
+@import url(ctrl/header.css);
+
+/*ナビゲーション用
+@import url(ctrl/navi.css);
+*/
+
+/*ナビゲーション用*/
+@import url(../navi/navi.css);
+
+
+
+/*メインコンテンツ用*/
+@import url(ctrl/main.css);
+
+/*フッター*/
+@import url(ctrl/footer.css);
+
+
+/* print用 */
+@import url(print.css) print;
+
+
+
+
+/* mac IE のみ適用 */
+/*\*//*/@import "ctrl/macie5x.css";/**/ 
+
+
+
+/*win IE5.5のみ適用*/
+@media tty {
+	 i{content:"\";/*" "*/}}@m; @import 'ctrl/winie5x.css'; /*";}
+	}/* */
+
+
+/*win IE5のみ適用*/
+@media tty
+	 { i{content:"\";/*" "*/}}; @import 'ctrl/winie5x.css'; {;}/*";}
+	}/* */
+	
+
+

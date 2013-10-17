@@ -1,0 +1,520 @@
+@charset "shift_jis";
+
+/*-------------------------------------------------------
+　
+　　 本文共通設定用
+
+---------------------------------------------------------*/
+
+	
+
+
+
+
+
+
+
+
+
+
+/*タイトル
+---------------------------------------------------- */
+
+
+h1{
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	}
+
+
+	.h1_box{
+		margin:25px 0px 0px 0px;
+		padding:0px;
+		}
+
+
+
+
+
+	/*背景*/
+	
+	h2.h2{
+		font-family:"ＭＳ ゴシック", "Osaka－等幅";
+		clear:both;
+		margin:35px 0px 0px 0px;
+		padding:0px;
+		background:url(../../img/main/h4_bg.jpg) no-repeat 6px 4px;
+		color:#FF6600;
+		font-size:170%
+		 /*color:#679836;font-size:120%  ============================================== */
+		}
+
+		/*背景下*/
+	h2 strong{
+			display:block;
+			padding:0.1em 10px 10px 18px;
+			background:url(../../img/main/h4_bg2.jpg) no-repeat 0 bottom;
+			margin:0px;
+		}
+
+
+
+
+		
+
+
+
+
+
+	/*背景*/
+	h4.h4{
+		clear:both;
+		margin:20px 0px 0px 0px;
+		padding:0px;
+		background:url(../../img/main/h5_bg.jpg) no-repeat 6px 4px;
+		color:#339900;
+		font-size:130%
+		/*border-bottom:1px solid #fefefe*/
+		 /*font-size:120%  ============================================== */
+		}
+
+		/*背景下*/
+	h4 strong{
+			display:block;
+			padding:0em 10px 0px 18px;
+			margin:0px;
+border-bottom:1px solid #CCCCCC
+		}
+		
+
+	/*背景*/
+	h5.h5_event{
+		clear:both;
+		margin:10px 0px 0px 0px;
+		padding:0px;
+		background:url(../../img/main/h4_bg.jpg) no-repeat 6px 4px;
+		color:#006600;
+		/*border-bottom:1px solid #fefefe*/
+		 /*font-size:120%  ============================================== */
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	h4{
+		padding:0px;
+		margin:0px;
+		}
+
+	h5{
+		padding:0px;
+		margin:0px;
+		}
+
+
+
+
+#inquiry{
+	clear:both;
+	margin:20px auto 0px auto;
+	width:621px;
+	}
+	
+	#inquiry img{
+			display:block
+		}
+
+
+
+
+
+
+
+
+/*
+-----------------------------------------------------*/
+fieldset{
+	
+	padding:10px;
+	margin-bottom:25px;
+	margin-top:0px;}
+
+
+	legend{
+		color:#000000;
+		font-weight:bold;
+		margin-bottom:10px;
+		padding:0px 5px;
+		font-size:120%;
+	
+	}
+
+
+
+
+/*  ボックスの設定
+------------------------------------------*/
+.h3_box	{
+	clear:both;
+	width:650px;
+	padding:0xp 10px
+	}
+
+
+		/* モダンブラウザ（IE6,7以外） */
+		.h3_box:after{
+			height:0px;
+			visibility:hidden;
+			content:".";
+			display:block;
+			clear:both;
+			}
+
+
+	.h3_box	p{
+		margin:0px;
+		padding:10px 10px 10px 16px;
+		line-height:160%
+		}
+	
+	
+/*キャプション*/
+p.cap{
+	font-size:90%;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	color:#336600;
+	
+	}
+
+
+
+/* 段組
+-------------------------------------------*/
+.h3_box	.fbox_l {
+	float:left;
+	}
+
+
+.h3_box	.fbox_r {
+	float:right;
+	}
+
+
+
+/* 段組 枠幅を設定
+-------------------------------------------*/
+
+
+/*<div .h3_box ■■■■■>*/
+.w5050 .fbox_l {
+	width:380px;
+	}
+
+
+.w5050 .fbox_r {
+	width:380px;
+	}
+
+
+
+/*<div .h3_box ■■■■■>*/
+.w5050b .fbox_l {
+	width:450px;
+	}
+
+
+.w5050b .fbox_r {
+	width:340px;
+	}
+
+
+
+
+/*<div .h3_box ■■■■■>*/
+.w6040 .fbox_l {
+	width:500px;
+	margin-top:10px;
+	}
+
+
+.w6040 .fbox_r {
+	width:290px;
+	margin-top:10px;
+	}
+
+
+
+.w6040 .fbox_r img{
+	text-align:center
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+/*<div .h3_box ■■■■■>*/
+.w_btm .fbox_l {
+	width:380px;
+	margin-top:10px;
+	text-align:right
+	}
+
+
+.w_btm .fbox_r {
+	width:380px;
+	margin-top:10px;
+		text-align:left
+	}
+
+
+
+
+
+
+
+
+/*<div .h3_box ■■■■■>*/
+.w1090 .fbox_l {
+	width:80px;
+	margin-top:10px	}
+
+
+.w1090 .fbox_r {
+	width:575px;
+	margin-top:10px
+	}
+
+
+
+
+/*<div .h3_box ■■■■■>*/
+.w2080 .fbox_l {
+	width:150px;
+	margin-top:10px	}
+
+
+.w2080 .fbox_r {
+	width:490px;
+	margin-top:10px
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+/*<div .h3_box ■■■■■>*/
+.w7030 .fbox_l {
+	width:470px;
+	margin-top:10px	}
+
+
+.w7030 .fbox_r {
+	width:200px;
+	margin-top:10px
+	}
+
+
+
+/*<div .h3_box ■■■■■>*/
+.w8020 .fbox_l {
+	width:490px;
+	margin-top:10px	}
+
+
+.w8020 .fbox_r {
+	width:150px;
+	margin-top:10px
+	}
+
+
+/*<div .h3_box ■■■■■>*/
+.w9010 .fbox_l {
+	width:560px;
+	margin-top:10px	}
+
+
+.w9010 .fbox_r {
+	width:100px;
+	margin-top:10px
+	}
+
+
+
+
+
+
+
+
+/* main 下部ナビ
+-------------------------------------------------------*/
+
+#main_bottom_navi{
+	background:url(../../img/body/lin_dot_720.gif) no-repeat;
+	padding:10px 0px;
+	clear:both;
+	text-align:center;
+	margin:30px 0px;
+	}
+
+
+body#lnavi_1  #main_bottom_navi li a#lnavi_1 {font-weight:bold;color:#ff0000}
+body#lnavi_2  #main_bottom_navi li a#lnavi_2 {font-weight:bold;color:#ff0000}
+body#lnavi_3  #main_bottom_navi li a#lnavi_3 {font-weight:bold;color:#ff0000}
+body#lnavi_4  #main_bottom_navi li a#lnavi_4 {font-weight:bold;color:#ff0000}
+body#lnavi_5  #main_bottom_navi li a#lnavi_5 {font-weight:bold;color:#ff0000}
+body#lnavi_6  #main_bottom_navi li a#lnavi_6 {font-weight:bold;color:#ff0000}
+body#lnavi_7  #main_bottom_navi li a#lnavi_7 {font-weight:bold;color:#ff0000}
+body#lnavi_8  #main_bottom_navi li a#lnavi_8 {font-weight:bold;color:#ff0000}
+
+
+
+
+
+/* font サイズ
+-------------------------------------------------------*/
+#main {
+	font-size:80%;
+	line-height:140%;
+	}
+
+
+#main_img {
+
+	}
+
+
+
+/*
+------------------------------------------------------------*/
+
+.red{
+	color:red;
+}
+.font_small{
+	font-size:80%;
+}
+
+
+
+	
+/* noflash
+------------------------------------------*/
+
+
+#noflash{
+	border:1px solid #CCCCCC;
+	background:#FFFFCC;
+	margin:10px;
+	padding:20px;
+	font-size:12px;
+	
+	}
+	
+	
+
+
+
+
+.tel{
+	font-size:180%;
+	font-family:"Times New Roman", Times, serif;
+	color:#FF3300
+	}
+	
+
+
+
+
+
+/* 関連リンクなどの枠
+-----------------------------------------------------------------------------------*/
+.waku{
+	clear:both;
+	padding:10px 10px 4px 10px;
+	border:2px solid #FFFFCC;
+	background:#FFFFD2;
+	margin:10px 20px
+	
+	}
+
+.waku3{
+	clear:both;
+	padding:5px;
+	border:1px solid #E4E4E4;
+	background:#F6F6F6;
+	}
+
+
+
+.waku_red{
+	clear:both;
+	padding:10px 15px;
+	border:2px solid red;
+	background:#FFFFD2;
+	margin:10px
+	}
+
+
+
+.waku_blue{
+	clear:both;
+	padding:10px 15px 0px 15px;
+	border:1px solid #688EB7;
+	background:#F4F5DC;
+	/*border:1px solid #3399FF;
+	background:#FFFFD2;	   */
+	margin:10px 10px 10px 10px;
+	}
+
+
+.waku_link{
+	clear:both;
+	padding:10px 15px;
+	border:1px solid #E4E4E4;
+	background:#FFFFD2;
+	margin:10px
+	}
+
+
+
+.waku_doc{
+	clear:both;
+	padding:10px 15px;
+	border:2px solid #E4E4E4;
+	background:#FFECC0;
+	margin:10px
+	}

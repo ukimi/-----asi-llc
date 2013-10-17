@@ -1,0 +1,195 @@
+@charset "shift_jis";
+
+
+/*-----------------------------------
+
+　　　　　ヘッダー領域設定用
+
+------------------------------------*/
+
+
+
+/*ロゴ*/
+#header_ci{
+	float:left;
+	width:240px;
+	margin-top:16px;
+	}
+	
+	#header_ci img{
+
+		}
+
+
+
+
+
+/*右navi*/
+#header_navi{
+	float:right;
+	width:630px;
+	margin-top:43px;
+	}
+		
+
+
+
+
+
+	/*検索ボックス*/
+		#snavi{
+		margin-top:15px;
+		margin-bottom:5px;
+			}
+		
+		#snavi form{
+			margin:0px; padding:0px
+		}
+		
+	
+	/* 右ナビリンク*/
+		#header_navi_right{
+			float:left
+		}
+		
+	
+
+
+
+
+
+
+/* グローバルナビ
+--------------------------------------------------------------*/
+
+
+#gnavi{
+	clear:both;
+
+	}
+
+
+
+
+/*header_02
+------------------------------------------------------------------------------*/
+#header_02{
+		clear:both;
+		width:900px;
+		margin-bottom:10px;
+		margin-top:5px;
+	}
+	
+	
+			/*　親boxの高さを算出：子boxにfloatを使用 */
+		#header_02{
+			/*IE6,7用*/
+			/*width :880px;		  */
+		
+
+		
+		
+			/*mac IE5用*/
+			/*\*/*/
+			overflow:hidden;
+			/**/
+			}
+		
+		
+		/* モダンブラウザ（IE6,7以外） */
+		#header_02:after{
+			height:0px;
+			visibility:hidden;
+			content:".";
+			display:block;
+			clear:both;
+			}
+
+
+
+
+
+
+
+/*パンクズ設定
+---------------------------------------------------- */
+#breadlist {
+
+/*	margin:10px 0px 20px 0px;
+	padding:0 0 5px 3px;*/
+	font-size: 10px;
+	width:530px;
+	}
+
+
+
+		
+		#breadlist ul {
+			padding:0px;
+			margin:0px;
+			margin-left:10px;
+			list-style: none;
+			}
+		
+		#breadlist li{
+			display: inline;
+			}
+		
+		
+		
+		#breadlist li a{
+			display: inline;
+			background-image:url(../../img/body/i_topicpass.gif);
+			background-position: right 0.22em;
+			padding-right: 15px;
+			background-repeat: no-repeat;
+			}
+		
+			
+			/*リンク*/
+			#breadlist a:link {
+				color: #333333;
+				text-decoration: none;
+				}
+				
+			#breadlist a:visited {
+			  color: #000000;
+			  text-decoration: none;
+				}
+				
+			#breadlist a:active {
+				color: #0066CC;
+				text-decoration: underline;
+				}
+				
+			#breadlist a:hover {
+				color: #0066CC;
+				text-decoration: underline;
+				}
+			
+		
+		
+		
+/*対象者別ボタン設定
+---------------------------------------------------- */
+#segment {
+
+	float:right;
+/*	margin:10px 0px 20px 0px;
+	padding:0 0 5px 3px;*/
+	font-size: 10px;
+	width:360px;
+	}
+
+
+
+#segment #img-segment02{
+		margin-left:12px
+			}
+
+
+
+
+
+
+
